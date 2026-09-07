@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "category": "verbal",
+    "prompt": "Tous les éléments urgents sont vérifiés. Aucun élément vérifié n’est anonyme. Le dossier Atlas est urgent. Que peut-on conclure ?",
+    "options": [
+      "Le dossier Atlas n’est pas anonyme.",
+      "Le dossier Atlas est anonyme.",
+      "Tous les éléments anonymes sont urgents.",
+      "Le dossier Atlas n’est pas vérifié."
+    ],
+    "answer": 0,
+    "explanation": "Le dossier Atlas appartient au groupe urgent, donc au groupe vérifié. Or aucun élément vérifié ne peut être anonyme."
+  },
+  {
+    "id": 2,
+    "category": "numerical",
+    "prompt": "Un budget passe de 200 k€ à 230 k€. Quel est le taux d’augmentation ?",
+    "options": [
+      "15 %",
+      "20 %",
+      "10 %",
+      "30 %"
+    ],
+    "answer": 0,
+    "explanation": "La hausse est de 30 k€. (230 − 200) ÷ 200 × 100 = 15 %."
+  },
+  {
+    "id": 3,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ↑, →, ↓, ←, ↑, …",
+    "options": [
+      "→",
+      "↑",
+      "↓",
+      "←"
+    ],
+    "answer": 0,
+    "explanation": "La flèche tourne de 90° dans le sens horaire à chaque étape."
+  },
+  {
+    "id": 4,
+    "category": "verbal",
+    "prompt": "Tous les éléments validés sont archivés. Aucun élément archivé n’est public. Le rapport Vega est validé. Que peut-on conclure ?",
+    "options": [
+      "Le rapport Vega est public.",
+      "Le rapport Vega n’est pas public.",
+      "Tous les éléments publics sont validés.",
+      "Le rapport Vega n’est pas archivé."
+    ],
+    "answer": 1,
+    "explanation": "Le rapport Vega appartient au groupe validé, donc au groupe archivé. Or aucun élément archivé ne peut être public."
+  },
+  {
+    "id": 5,
+    "category": "numerical",
+    "prompt": "Un budget passe de 320 k€ à 400 k€. Quel est le taux d’augmentation ?",
+    "options": [
+      "30 %",
+      "25 %",
+      "20 %",
+      "80 %"
+    ],
+    "answer": 1,
+    "explanation": "La hausse est de 80 k€. (400 − 320) ÷ 320 × 100 = 25 %."
+  },
+  {
+    "id": 6,
+    "category": "abstract",
+    "prompt": "Complétez la suite : →, ↓, ←, ↑, →, …",
+    "options": [
+      "↑",
+      "↓",
+      "→",
+      "←"
+    ],
+    "answer": 1,
+    "explanation": "La flèche tourne de 90° dans le sens horaire à chaque étape."
+  },
+  {
+    "id": 7,
+    "category": "verbal",
+    "prompt": "Tous les éléments prioritaires sont financés. Aucun élément financé n’est suspendu. Le projet Iris est prioritaire. Que peut-on conclure ?",
+    "options": [
+      "Le projet Iris est suspendu.",
+      "Tous les éléments suspendus sont prioritaires.",
+      "Le projet Iris n’est pas suspendu.",
+      "Le projet Iris n’est pas financé."
+    ],
+    "answer": 2,
+    "explanation": "Le projet Iris appartient au groupe prioritaire, donc au groupe financé. Or aucun élément financé ne peut être suspendu."
+  },
+  {
+    "id": 8,
+    "category": "numerical",
+    "prompt": "Un budget passe de 480 k€ à 540 k€. Quel est le taux d’augmentation ?",
+    "options": [
+      "17,5 %",
+      "7,5 %",
+      "12,5 %",
+      "60 %"
+    ],
+    "answer": 2,
+    "explanation": "La hausse est de 60 k€. (540 − 480) ÷ 480 × 100 = 12,5 %."
+  },
+  {
+    "id": 9,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ↓, ←, ↑, →, ↓, …",
+    "options": [
+      "↑",
+      "→",
+      "←",
+      "↓"
+    ],
+    "answer": 2,
+    "explanation": "La flèche tourne de 90° dans le sens horaire à chaque étape."
+  },
+  {
+    "id": 10,
+    "category": "verbal",
+    "prompt": "Tous les éléments européens sont traduits. Aucun élément traduit n’est confidentiel. Le contrat Nova est européen. Que peut-on conclure ?",
+    "options": [
+      "Le contrat Nova est confidentiel.",
+      "Tous les éléments confidentiels sont européens.",
+      "Le contrat Nova n’est pas traduit.",
+      "Le contrat Nova n’est pas confidentiel."
+    ],
+    "answer": 3,
+    "explanation": "Le contrat Nova appartient au groupe européen, donc au groupe traduit. Or aucun élément traduit ne peut être confidentiel."
+  },
+  {
+    "id": 11,
+    "category": "numerical",
+    "prompt": "Un budget passe de 750 k€ à 900 k€. Quel est le taux d’augmentation ?",
+    "options": [
+      "25 %",
+      "15 %",
+      "150 %",
+      "20 %"
+    ],
+    "answer": 3,
+    "explanation": "La hausse est de 150 k€. (900 − 750) ÷ 750 × 100 = 20 %."
+  },
+  {
+    "id": 12,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ←, ↑, →, ↓, ←, …",
+    "options": [
+      "→",
+      "↓",
+      "←",
+      "↑"
+    ],
+    "answer": 3,
+    "explanation": "La flèche tourne de 90° dans le sens horaire à chaque étape."
+  },
+  {
+    "id": 13,
+    "category": "verbal",
+    "prompt": "Tous les éléments externes sont planifiés. Aucun élément planifié n’est annulé. L’audit Sigma est externe. Que peut-on conclure ?",
+    "options": [
+      "L’audit Sigma n’est pas annulé.",
+      "L’audit Sigma est annulé.",
+      "Tous les éléments annulés sont externes.",
+      "L’audit Sigma n’est pas planifié."
+    ],
+    "answer": 0,
+    "explanation": "L’audit Sigma appartient au groupe externe, donc au groupe planifié. Or aucun élément planifié ne peut être annulé."
+  },
+  {
+    "id": 14,
+    "category": "numerical",
+    "prompt": "Un budget passe de 640 k€ à 720 k€. Quel est le taux d’augmentation ?",
+    "options": [
+      "12,5 %",
+      "17,5 %",
+      "7,5 %",
+      "80 %"
+    ],
+    "answer": 0,
+    "explanation": "La hausse est de 80 k€. (720 − 640) ÷ 640 × 100 = 12,5 %."
+  },
+  {
+    "id": 15,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ↑, ←, ↓, →, ↑, …",
+    "options": [
+      "←",
+      "↑",
+      "→",
+      "↓"
+    ],
+    "answer": 0,
+    "explanation": "La flèche tourne de 90° dans le sens antihoraire à chaque étape."
+  },
+  {
+    "id": 16,
+    "category": "verbal",
+    "prompt": "Tous les éléments pluriannuels sont évalués. Aucun élément évalué n’est provisoire. Le programme Helios est pluriannuel. Que peut-on conclure ?",
+    "options": [
+      "Le programme Helios est provisoire.",
+      "Le programme Helios n’est pas provisoire.",
+      "Tous les éléments provisoires sont pluriannuels.",
+      "Le programme Helios n’est pas évalué."
+    ],
+    "answer": 1,
+    "explanation": "Le programme Helios appartient au groupe pluriannuel, donc au groupe évalué. Or aucun élément évalué ne peut être provisoire."
+  },
+  {
+    "id": 17,
+    "category": "numerical",
+    "prompt": "Un budget passe de 1 250 k€ à 1 500 k€. Quel est le taux d’augmentation ?",
+    "options": [
+      "25 %",
+      "20 %",
+      "15 %",
+      "250 %"
+    ],
+    "answer": 1,
+    "explanation": "La hausse est de 250 k€. (1500 − 1250) ÷ 1250 × 100 = 20 %."
+  },
+  {
+    "id": 18,
+    "category": "abstract",
+    "prompt": "Complétez la suite : →, ↑, ←, ↓, →, …",
+    "options": [
+      "→",
+      "↑",
+      "↓",
+      "←"
+    ],
+    "answer": 1,
+    "explanation": "La flèche tourne de 90° dans le sens antihoraire à chaque étape."
+  },
+  {
+    "id": 19,
+    "category": "verbal",
+    "prompt": "Tous les éléments ouverts sont publiés. Aucun élément publié n’est interne. L’appel Delta est ouvert. Que peut-on conclure ?",
+    "options": [
+      "L’appel Delta est interne.",
+      "Tous les éléments internes sont ouverts.",
+      "L’appel Delta n’est pas interne.",
+      "L’appel Delta n’est pas publié."
+    ],
+    "answer": 2,
+    "explanation": "L’appel Delta appartient au groupe ouvert, donc au groupe publié. Or aucun élément publié ne peut être interne."
+  },
+  {
+    "id": 20,
+    "category": "numerical",
+    "prompt": "Un budget passe de 360 k€ à 450 k€. Quel est le taux d’augmentation ?",
+    "options": [
+      "30 %",
+      "20 %",
+      "25 %",
+      "90 %"
+    ],
+    "answer": 2,
+    "explanation": "La hausse est de 90 k€. (450 − 360) ÷ 360 × 100 = 25 %."
+  },
+  {
+    "id": 21,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ↓, →, ↑, ←, ↓, …",
+    "options": [
+      "↑",
+      "↓",
+      "→",
+      "←"
+    ],
+    "answer": 2,
+    "explanation": "La flèche tourne de 90° dans le sens antihoraire à chaque étape."
+  },
+  {
+    "id": 22,
+    "category": "verbal",
+    "prompt": "Tous les éléments renouvelés sont approuvés. Aucun élément approuvé n’est expiré. Le mandat Echo est renouvelé. Que peut-on conclure ?",
+    "options": [
+      "Le mandat Echo est expiré.",
+      "Tous les éléments expirés sont renouvelés.",
+      "Le mandat Echo n’est pas approuvé.",
+      "Le mandat Echo n’est pas expiré."
+    ],
+    "answer": 3,
+    "explanation": "Le mandat Echo appartient au groupe renouvelé, donc au groupe approuvé. Or aucun élément approuvé ne peut être expiré."
+  },
+  {
+    "id": 23,
+    "category": "numerical",
+    "prompt": "Dans un service de 80 personnes, 35 % travaillent à distance. Combien travaillent sur site ?",
+    "options": [
+      "28",
+      "52",
+      "60",
+      "44"
+    ],
+    "answer": 1,
+    "explanation": "65 % travaillent sur site. 80 × 0.65 = 52."
+  },
+  {
+    "id": 24,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ←, ↓, →, ↑, ←, …",
+    "options": [
+      "↑",
+      "→",
+      "←",
+      "↓"
+    ],
+    "answer": 3,
+    "explanation": "La flèche tourne de 90° dans le sens antihoraire à chaque étape."
+  },
+  {
+    "id": 25,
+    "category": "verbal",
+    "prompt": "Tous les éléments juridiques sont révisés. Aucun élément révisé n’est informel. L’avis Luna est juridique. Que peut-on conclure ?",
+    "options": [
+      "L’avis Luna n’est pas informel.",
+      "L’avis Luna est informel.",
+      "Tous les éléments informels sont juridiques.",
+      "L’avis Luna n’est pas révisé."
+    ],
+    "answer": 0,
+    "explanation": "L’avis Luna appartient au groupe juridique, donc au groupe révisé. Or aucun élément révisé ne peut être informel."
+  },
+  {
+    "id": 26,
+    "category": "numerical",
+    "prompt": "Dans un service de 120 personnes, 40 % travaillent à distance. Combien travaillent sur site ?",
+    "options": [
+      "48",
+      "84",
+      "72",
+      "60"
+    ],
+    "answer": 2,
+    "explanation": "60 % travaillent sur site. 120 × 0.6 = 72."
+  },
+  {
+    "id": 27,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ○, △, □, ○, △, …",
+    "options": [
+      "○",
+      "□",
+      "△",
+      "◇"
+    ],
+    "answer": 1,
+    "explanation": "Le cycle de trois formes « ○ → △ → □ » se répète."
+  },
+  {
+    "id": 28,
+    "category": "verbal",
+    "prompt": "Pour être acceptée, la demande Orion doit être signée. Or la demande Orion est acceptée. Quelle affirmation est nécessairement vraie ?",
+    "options": [
+      "La demande Orion n’est pas signée.",
+      "La demande Orion est signée.",
+      "Tous les éléments signées sont acceptées.",
+      "Aucun autre élément n’est acceptée."
+    ],
+    "answer": 1,
+    "explanation": "« Seulement si » exprime une condition nécessaire : être acceptée implique d’être signée."
+  },
+  {
+    "id": 29,
+    "category": "numerical",
+    "prompt": "Dans un service de 240 personnes, 25 % travaillent à distance. Combien travaillent sur site ?",
+    "options": [
+      "60",
+      "204",
+      "156",
+      "180"
+    ],
+    "answer": 3,
+    "explanation": "75 % travaillent sur site. 240 × 0.75 = 180."
+  },
+  {
+    "id": 30,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ●, ▲, ◇, ●, ▲, …",
+    "options": [
+      "○",
+      "△",
+      "◇",
+      "□"
+    ],
+    "answer": 2,
+    "explanation": "Le cycle de trois formes « ◇ → ● → ▲ » se répète."
+  },
+  {
+    "id": 31,
+    "category": "verbal",
+    "prompt": "Pour être exécuté, le paiement Atlas doit être autorisé. Or le paiement Atlas est exécuté. Quelle affirmation est nécessairement vraie ?",
+    "options": [
+      "Le paiement Atlas n’est pas autorisé.",
+      "Tous les éléments autorisés sont exécutés.",
+      "Le paiement Atlas est autorisé.",
+      "Aucun autre élément n’est exécuté."
+    ],
+    "answer": 2,
+    "explanation": "« Seulement si » exprime une condition nécessaire : être exécuté implique d’être autorisé."
+  },
+  {
+    "id": 32,
+    "category": "numerical",
+    "prompt": "Dans un service de 360 personnes, 15 % travaillent à distance. Combien travaillent sur site ?",
+    "options": [
+      "306",
+      "54",
+      "342",
+      "270"
+    ],
+    "answer": 0,
+    "explanation": "85 % travaillent sur site. 360 × 0.85 = 306."
+  },
+  {
+    "id": 33,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ◆, ■, ○, ◆, ■, …",
+    "options": [
+      "△",
+      "□",
+      "◇",
+      "○"
+    ],
+    "answer": 3,
+    "explanation": "Le cycle de trois formes « ■ → ○ → ◆ » se répète."
+  },
+  {
+    "id": 34,
+    "category": "verbal",
+    "prompt": "Pour être lancée, la mission Vega doit être budgétée. Or la mission Vega est lancée. Quelle affirmation est nécessairement vraie ?",
+    "options": [
+      "La mission Vega n’est pas budgétée.",
+      "Tous les éléments budgétées sont lancées.",
+      "Aucun autre élément n’est lancée.",
+      "La mission Vega est budgétée."
+    ],
+    "answer": 3,
+    "explanation": "« Seulement si » exprime une condition nécessaire : être lancée implique d’être budgétée."
+  },
+  {
+    "id": 35,
+    "category": "numerical",
+    "prompt": "Dans un service de 500 personnes, 62 % travaillent à distance. Combien travaillent sur site ?",
+    "options": [
+      "310",
+      "190",
+      "240",
+      "140"
+    ],
+    "answer": 1,
+    "explanation": "38 % travaillent sur site. 500 × 0.38 = 190."
+  },
+  {
+    "id": 36,
+    "category": "abstract",
+    "prompt": "Complétez la suite : △, ▽, ○, △, ▽, …",
+    "options": [
+      "○",
+      "△",
+      "□",
+      "◇"
+    ],
+    "answer": 0,
+    "explanation": "Le cycle de trois formes « △ → ▽ → ○ » se répète."
+  },
+  {
+    "id": 37,
+    "category": "verbal",
+    "prompt": "Pour être transmis, le dossier Iris doit être complet. Or le dossier Iris est transmis. Quelle affirmation est nécessairement vraie ?",
+    "options": [
+      "Le dossier Iris est complet.",
+      "Le dossier Iris n’est pas complet.",
+      "Tous les éléments complets sont transmiss.",
+      "Aucun autre élément n’est transmis."
+    ],
+    "answer": 0,
+    "explanation": "« Seulement si » exprime une condition nécessaire : être transmis implique d’être complet."
+  },
+  {
+    "id": 38,
+    "category": "numerical",
+    "prompt": "Dans un service de 640 personnes, 30 % travaillent à distance. Combien travaillent sur site ?",
+    "options": [
+      "192",
+      "512",
+      "448",
+      "384"
+    ],
+    "answer": 2,
+    "explanation": "70 % travaillent sur site. 640 × 0.7 = 448."
+  },
+  {
+    "id": 39,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ◇, ●, □, ◇, ●, …",
+    "options": [
+      "○",
+      "□",
+      "△",
+      "◇"
+    ],
+    "answer": 1,
+    "explanation": "Le cycle de trois formes « □ → ◇ → ● » se répète."
+  },
+  {
+    "id": 40,
+    "category": "verbal",
+    "prompt": "Pour être confirmée, la réunion Nova doit être traduite. Or la réunion Nova est confirmée. Quelle affirmation est nécessairement vraie ?",
+    "options": [
+      "La réunion Nova n’est pas traduite.",
+      "La réunion Nova est traduite.",
+      "Tous les éléments traduites sont confirmées.",
+      "Aucun autre élément n’est confirmée."
+    ],
+    "answer": 1,
+    "explanation": "« Seulement si » exprime une condition nécessaire : être confirmée implique d’être traduite."
+  },
+  {
+    "id": 41,
+    "category": "numerical",
+    "prompt": "Dans un service de 900 personnes, 44 % travaillent à distance. Combien travaillent sur site ?",
+    "options": [
+      "396",
+      "594",
+      "414",
+      "504"
+    ],
+    "answer": 3,
+    "explanation": "56 % travaillent sur site. 900 × 0.56 = 504."
+  },
+  {
+    "id": 42,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ○, ▲, ■, ○, ▲, …",
+    "options": [
+      "○",
+      "△",
+      "■",
+      "□"
+    ],
+    "answer": 2,
+    "explanation": "Le cycle de trois formes « ▲ → ■ → ○ » se répète."
+  },
+  {
+    "id": 43,
+    "category": "verbal",
+    "prompt": "Pour être publié, le rapport Echo doit être approuvé. Or le rapport Echo est publié. Quelle affirmation est nécessairement vraie ?",
+    "options": [
+      "Le rapport Echo n’est pas approuvé.",
+      "Tous les éléments approuvés sont publiés.",
+      "Le rapport Echo est approuvé.",
+      "Aucun autre élément n’est publié."
+    ],
+    "answer": 2,
+    "explanation": "« Seulement si » exprime une condition nécessaire : être publié implique d’être approuvé."
+  },
+  {
+    "id": 44,
+    "category": "numerical",
+    "prompt": "Une équipe traite 84 dossiers en 7 jours à rythme constant. Combien en traite-t-elle en 12 jours ?",
+    "options": [
+      "156",
+      "132",
+      "144",
+      "96"
+    ],
+    "answer": 2,
+    "explanation": "Le rythme est de 84 ÷ 7 = 12 dossiers par jour, puis 12 × 12 = 144."
+  },
+  {
+    "id": 45,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ●, ◆, △, ●, ◆, …",
+    "options": [
+      "○",
+      "□",
+      "◇",
+      "△"
+    ],
+    "answer": 3,
+    "explanation": "Le cycle de trois formes « ● → ◆ → △ » se répète."
+  },
+  {
+    "id": 46,
+    "category": "verbal",
+    "prompt": "Pour être renouvelé, le contrat Luna doit être évalué. Or le contrat Luna est renouvelé. Quelle affirmation est nécessairement vraie ?",
+    "options": [
+      "Le contrat Luna n’est pas évalué.",
+      "Tous les éléments évalués sont renouvelés.",
+      "Aucun autre élément n’est renouvelé.",
+      "Le contrat Luna est évalué."
+    ],
+    "answer": 3,
+    "explanation": "« Seulement si » exprime une condition nécessaire : être renouvelé implique d’être évalué."
+  },
+  {
+    "id": 47,
+    "category": "numerical",
+    "prompt": "Une équipe traite 96 dossiers en 8 jours à rythme constant. Combien en traite-t-elle en 15 jours ?",
+    "options": [
+      "192",
+      "168",
+      "111",
+      "180"
+    ],
+    "answer": 3,
+    "explanation": "Le rythme est de 96 ÷ 8 = 12 dossiers par jour, puis 12 × 15 = 180."
+  },
+  {
+    "id": 48,
+    "category": "abstract",
+    "prompt": "Complétez la suite : □, ◇, ▽, □, ◇, …",
+    "options": [
+      "▽",
+      "○",
+      "△",
+      "□"
+    ],
+    "answer": 0,
+    "explanation": "Le cycle de trois formes « ▽ → □ → ◇ » se répète."
+  },
+  {
+    "id": 49,
+    "category": "verbal",
+    "prompt": "Pour être financé, le projet Sigma doit être éligible. Or le projet Sigma est financé. Quelle affirmation est nécessairement vraie ?",
+    "options": [
+      "Le projet Sigma est éligible.",
+      "Le projet Sigma n’est pas éligible.",
+      "Tous les éléments éligibles sont financés.",
+      "Aucun autre élément n’est financé."
+    ],
+    "answer": 0,
+    "explanation": "« Seulement si » exprime une condition nécessaire : être financé implique d’être éligible."
+  },
+  {
+    "id": 50,
+    "category": "numerical",
+    "prompt": "Une équipe traite 150 dossiers en 10 jours à rythme constant. Combien en traite-t-elle en 6 jours ?",
+    "options": [
+      "90",
+      "105",
+      "75",
+      "156"
+    ],
+    "answer": 0,
+    "explanation": "Le rythme est de 150 ÷ 10 = 15 dossiers par jour, puis 15 × 6 = 90."
+  },
+  {
+    "id": 51,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ●, ○○, ●●●, ○○○○, …",
+    "options": [
+      "○○○○○",
+      "●●●●",
+      "●●●●●",
+      "○○○○○○"
+    ],
+    "answer": 2,
+    "explanation": "Le nombre de formes augmente de 1 et le remplissage alterne plein/vide. Il faut cinq formes pleines."
+  },
+  {
+    "id": 52,
+    "category": "verbal",
+    "prompt": "Pour être notifiée, la décision Delta doit être adoptée. Or la décision Delta est notifiée. Quelle affirmation est nécessairement vraie ?",
+    "options": [
+      "La décision Delta n’est pas adoptée.",
+      "La décision Delta est adoptée.",
+      "Tous les éléments adoptées sont notifiées.",
+      "Aucun autre élément n’est notifiée."
+    ],
+    "answer": 1,
+    "explanation": "« Seulement si » exprime une condition nécessaire : être notifiée implique d’être adoptée."
+  },
+  {
+    "id": 53,
+    "category": "numerical",
+    "prompt": "Une équipe traite 132 dossiers en 11 jours à rythme constant. Combien en traite-t-elle en 8 jours ?",
+    "options": [
+      "108",
+      "96",
+      "84",
+      "140"
+    ],
+    "answer": 1,
+    "explanation": "Le rythme est de 132 ÷ 11 = 12 dossiers par jour, puis 12 × 8 = 96."
+  },
+  {
+    "id": 54,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ■, □□, ■■■, □□□□, …",
+    "options": [
+      "□□□□□",
+      "■■■■",
+      "□□□□□□",
+      "■■■■■"
+    ],
+    "answer": 3,
+    "explanation": "Le nombre de formes augmente de 1 et le remplissage alterne plein/vide. Il faut cinq formes pleines."
+  },
+  {
+    "id": 55,
+    "category": "verbal",
+    "prompt": "Certains analystes sont auditeurs. Tous les auditeurs sont accrédités. Quelle conclusion est certaine ?",
+    "options": [
+      "Tous les analystes sont accrédités.",
+      "Aucun analystes n’est accrédités.",
+      "Certains analystes sont accrédités.",
+      "Tous les accrédités sont auditeurs."
+    ],
+    "answer": 2,
+    "explanation": "Les analystes qui sont auditeurs appartiennent nécessairement au groupe des personnes accrédités. On peut donc affirmer que certains analystes sont accrédités."
+  },
+  {
+    "id": 56,
+    "category": "numerical",
+    "prompt": "Une équipe traite 225 dossiers en 15 jours à rythme constant. Combien en traite-t-elle en 9 jours ?",
+    "options": [
+      "150",
+      "120",
+      "135",
+      "234"
+    ],
+    "answer": 2,
+    "explanation": "Le rythme est de 225 ÷ 15 = 15 dossiers par jour, puis 15 × 9 = 135."
+  },
+  {
+    "id": 57,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ◆, ◇◇, ◆◆◆, ◇◇◇◇, …",
+    "options": [
+      "◆◆◆◆◆",
+      "◇◇◇◇◇",
+      "◆◆◆◆",
+      "◇◇◇◇◇◇"
+    ],
+    "answer": 0,
+    "explanation": "Le nombre de formes augmente de 1 et le remplissage alterne plein/vide. Il faut cinq formes pleines."
+  },
+  {
+    "id": 58,
+    "category": "verbal",
+    "prompt": "Certains juristes sont médiateurs. Tous les médiateurs sont formés. Quelle conclusion est certaine ?",
+    "options": [
+      "Tous les juristes sont formés.",
+      "Aucun juristes n’est formés.",
+      "Tous les formés sont médiateurs.",
+      "Certains juristes sont formés."
+    ],
+    "answer": 3,
+    "explanation": "Les juristes qui sont médiateurs appartiennent nécessairement au groupe des personnes formés. On peut donc affirmer que certains juristes sont formés."
+  },
+  {
+    "id": 59,
+    "category": "numerical",
+    "prompt": "Une équipe traite 168 dossiers en 14 jours à rythme constant. Combien en traite-t-elle en 20 jours ?",
+    "options": [
+      "252",
+      "228",
+      "188",
+      "240"
+    ],
+    "answer": 3,
+    "explanation": "Le rythme est de 168 ÷ 14 = 12 dossiers par jour, puis 12 × 20 = 240."
+  },
+  {
+    "id": 60,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ▲, △△, ▲▲▲, △△△△, …",
+    "options": [
+      "△△△△△",
+      "▲▲▲▲▲",
+      "▲▲▲▲",
+      "△△△△△△"
+    ],
+    "answer": 1,
+    "explanation": "Le nombre de formes augmente de 1 et le remplissage alterne plein/vide. Il faut cinq formes pleines."
+  },
+  {
+    "id": 61,
+    "category": "verbal",
+    "prompt": "Certains traducteurs sont réviseurs. Tous les réviseurs sont expérimentés. Quelle conclusion est certaine ?",
+    "options": [
+      "Certains traducteurs sont expérimentés.",
+      "Tous les traducteurs sont expérimentés.",
+      "Aucun traducteurs n’est expérimentés.",
+      "Tous les expérimentés sont réviseurs."
+    ],
+    "answer": 0,
+    "explanation": "Les traducteurs qui sont réviseurs appartiennent nécessairement au groupe des personnes expérimentés. On peut donc affirmer que certains traducteurs sont expérimentés."
+  },
+  {
+    "id": 62,
+    "category": "numerical",
+    "prompt": "Une équipe traite 288 dossiers en 12 jours à rythme constant. Combien en traite-t-elle en 7 jours ?",
+    "options": [
+      "168",
+      "192",
+      "144",
+      "295"
+    ],
+    "answer": 0,
+    "explanation": "Le rythme est de 288 ÷ 12 = 24 dossiers par jour, puis 24 × 7 = 168."
+  },
+  {
+    "id": 63,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ▼, ▽▽, ▼▼▼, ▽▽▽▽, …",
+    "options": [
+      "▽▽▽▽▽",
+      "▼▼▼▼",
+      "▼▼▼▼▼",
+      "▽▽▽▽▽▽"
+    ],
+    "answer": 2,
+    "explanation": "Le nombre de formes augmente de 1 et le remplissage alterne plein/vide. Il faut cinq formes pleines."
+  },
+  {
+    "id": 64,
+    "category": "verbal",
+    "prompt": "Certains économistes sont chercheurs. Tous les chercheurs sont publiés. Quelle conclusion est certaine ?",
+    "options": [
+      "Tous les économistes sont publiés.",
+      "Certains économistes sont publiés.",
+      "Aucun économistes n’est publiés.",
+      "Tous les publiés sont chercheurs."
+    ],
+    "answer": 1,
+    "explanation": "Les économistes qui sont chercheurs appartiennent nécessairement au groupe des personnes publiés. On peut donc affirmer que certains économistes sont publiés."
+  },
+  {
+    "id": 65,
+    "category": "numerical",
+    "prompt": "Quatre unités ont traité respectivement 12, 16, 20, 24 demandes. Quelle est la moyenne ?",
+    "options": [
+      "23",
+      "13",
+      "24",
+      "18"
+    ],
+    "answer": 3,
+    "explanation": "La somme est 72. Divisée par 4, elle donne 18."
+  },
+  {
+    "id": 66,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ⬟, ⬡⬡, ⬟⬟⬟, ⬡⬡⬡⬡, …",
+    "options": [
+      "⬡⬡⬡⬡⬡",
+      "⬟⬟⬟⬟",
+      "⬡⬡⬡⬡⬡⬡",
+      "⬟⬟⬟⬟⬟"
+    ],
+    "answer": 3,
+    "explanation": "Le nombre de formes augmente de 1 et le remplissage alterne plein/vide. Il faut cinq formes pleines."
+  },
+  {
+    "id": 67,
+    "category": "verbal",
+    "prompt": "Certains gestionnaires sont comptables. Tous les comptables sont certifiés. Quelle conclusion est certaine ?",
+    "options": [
+      "Tous les gestionnaires sont certifiés.",
+      "Aucun gestionnaires n’est certifiés.",
+      "Certains gestionnaires sont certifiés.",
+      "Tous les certifiés sont comptables."
+    ],
+    "answer": 2,
+    "explanation": "Les gestionnaires qui sont comptables appartiennent nécessairement au groupe des personnes certifiés. On peut donc affirmer que certains gestionnaires sont certifiés."
+  },
+  {
+    "id": 68,
+    "category": "numerical",
+    "prompt": "Quatre unités ont traité respectivement 45, 55, 65, 75 demandes. Quelle est la moyenne ?",
+    "options": [
+      "60",
+      "65",
+      "55",
+      "80"
+    ],
+    "answer": 0,
+    "explanation": "La somme est 240. Divisée par 4, elle donne 60."
+  },
+  {
+    "id": 69,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ⬢, ⬡⬡, ⬢⬢⬢, ⬡⬡⬡⬡, …",
+    "options": [
+      "⬢⬢⬢⬢⬢",
+      "⬡⬡⬡⬡⬡",
+      "⬢⬢⬢⬢",
+      "⬡⬡⬡⬡⬡⬡"
+    ],
+    "answer": 0,
+    "explanation": "Le nombre de formes augmente de 1 et le remplissage alterne plein/vide. Il faut cinq formes pleines."
+  },
+  {
+    "id": 70,
+    "category": "verbal",
+    "prompt": "Certains experts sont consultants. Tous les consultants sont indépendants. Quelle conclusion est certaine ?",
+    "options": [
+      "Tous les experts sont indépendants.",
+      "Aucun experts n’est indépendants.",
+      "Tous les indépendants sont consultants.",
+      "Certains experts sont indépendants."
+    ],
+    "answer": 3,
+    "explanation": "Les experts qui sont consultants appartiennent nécessairement au groupe des personnes indépendants. On peut donc affirmer que certains experts sont indépendants."
+  },
+  {
+    "id": 71,
+    "category": "numerical",
+    "prompt": "Quatre unités ont traité respectivement 18, 22, 25, 35 demandes. Quelle est la moyenne ?",
+    "options": [
+      "30",
+      "25",
+      "20",
+      "33,33"
+    ],
+    "answer": 1,
+    "explanation": "La somme est 100. Divisée par 4, elle donne 25."
+  },
+  {
+    "id": 72,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ◉, ◎◎, ◉◉◉, ◎◎◎◎, …",
+    "options": [
+      "◎◎◎◎◎",
+      "◉◉◉◉◉",
+      "◉◉◉◉",
+      "◎◎◎◎◎◎"
+    ],
+    "answer": 1,
+    "explanation": "Le nombre de formes augmente de 1 et le remplissage alterne plein/vide. Il faut cinq formes pleines."
+  },
+  {
+    "id": 73,
+    "category": "verbal",
+    "prompt": "Certains inspecteurs sont ingénieurs. Tous les ingénieurs sont diplômés. Quelle conclusion est certaine ?",
+    "options": [
+      "Certains inspecteurs sont diplômés.",
+      "Tous les inspecteurs sont diplômés.",
+      "Aucun inspecteurs n’est diplômés.",
+      "Tous les diplômés sont ingénieurs."
+    ],
+    "answer": 0,
+    "explanation": "Les inspecteurs qui sont ingénieurs appartiennent nécessairement au groupe des personnes diplômés. On peut donc affirmer que certains inspecteurs sont diplômés."
+  },
+  {
+    "id": 74,
+    "category": "numerical",
+    "prompt": "Quatre unités ont traité respectivement 120, 135, 150, 195 demandes. Quelle est la moyenne ?",
+    "options": [
+      "155",
+      "145",
+      "150",
+      "200"
+    ],
+    "answer": 2,
+    "explanation": "La somme est 600. Divisée par 4, elle donne 150."
+  },
+  {
+    "id": 75,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ▲, ○, ▼, ●, ▲, …",
+    "options": [
+      "●",
+      "▼",
+      "△",
+      "○"
+    ],
+    "answer": 3,
+    "explanation": "La forme alterne triangle/cercle tandis que l’orientation ou le remplissage suit un cycle de deux étapes."
+  },
+  {
+    "id": 76,
+    "category": "verbal",
+    "prompt": "Certains administrateurs sont négociateurs. Tous les négociateurs sont multilingues. Quelle conclusion est certaine ?",
+    "options": [
+      "Tous les administrateurs sont multilingues.",
+      "Certains administrateurs sont multilingues.",
+      "Aucun administrateurs n’est multilingues.",
+      "Tous les multilingues sont négociateurs."
+    ],
+    "answer": 1,
+    "explanation": "Les administrateurs qui sont négociateurs appartiennent nécessairement au groupe des personnes multilingues. On peut donc affirmer que certains administrateurs sont multilingues."
+  },
+  {
+    "id": 77,
+    "category": "numerical",
+    "prompt": "Quatre unités ont traité respectivement 7, 9, 14, 18 demandes. Quelle est la moyenne ?",
+    "options": [
+      "17",
+      "7",
+      "16",
+      "12"
+    ],
+    "answer": 3,
+    "explanation": "La somme est 48. Divisée par 4, elle donne 12."
+  },
+  {
+    "id": 78,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ■, △, □, ▲, ■, …",
+    "options": [
+      "△",
+      "▲",
+      "□",
+      "●"
+    ],
+    "answer": 0,
+    "explanation": "Le motif de quatre symboles se répète à l’identique."
+  },
+  {
+    "id": 79,
+    "category": "verbal",
+    "prompt": "Chaque élément relève au moins d’une des options « Bruxelles » ou « Luxembourg ». La réunion Orion ne relève pas de l’option « Bruxelles ». Que sait-on ?",
+    "options": [
+      "La réunion Orion relève des deux options.",
+      "La réunion Orion ne relève d’aucune option.",
+      "Tous les autres éléments relèvent de l’option « Bruxelles ».",
+      "La réunion Orion relève de l’option « Luxembourg »."
+    ],
+    "answer": 3,
+    "explanation": "Puisque La réunion Orion doit relever d’au moins une des deux options et que « Bruxelles » est exclue, l’option « Luxembourg » est nécessaire."
+  },
+  {
+    "id": 80,
+    "category": "numerical",
+    "prompt": "Quatre unités ont traité respectivement 240, 260, 280, 300 demandes. Quelle est la moyenne ?",
+    "options": [
+      "270",
+      "275",
+      "265",
+      "360"
+    ],
+    "answer": 0,
+    "explanation": "La somme est 1080. Divisée par 4, elle donne 270."
+  },
+  {
+    "id": 81,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ○, ○○, △, △△, □, …",
+    "options": [
+      "□",
+      "□□",
+      "△△△",
+      "○○○"
+    ],
+    "answer": 1,
+    "explanation": "Chaque forme apparaît une fois puis deux fois avant de passer à la suivante."
+  },
+  {
+    "id": 82,
+    "category": "verbal",
+    "prompt": "Chaque élément relève au moins d’une des options « lundi » ou « mardi ». La formation Atlas ne relève pas de l’option « lundi ». Que sait-on ?",
+    "options": [
+      "La formation Atlas relève de l’option « mardi ».",
+      "La formation Atlas relève des deux options.",
+      "La formation Atlas ne relève d’aucune option.",
+      "Tous les autres éléments relèvent de l’option « lundi »."
+    ],
+    "answer": 0,
+    "explanation": "Puisque La formation Atlas doit relever d’au moins une des deux options et que « lundi » est exclue, l’option « mardi » est nécessaire."
+  },
+  {
+    "id": 83,
+    "category": "numerical",
+    "prompt": "Un budget de 100 k€ est partagé entre A et B selon le ratio 2:3. Quelle part revient à A ?",
+    "options": [
+      "40 k€",
+      "60 k€",
+      "20 k€",
+      "50 k€"
+    ],
+    "answer": 0,
+    "explanation": "Le ratio compte 5 parts. A en reçoit 2 : 100 ÷ 5 × 2 = 40 k€."
+  },
+  {
+    "id": 84,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ↑, ↓↓, ↑↑↑, ↓↓↓↓, …",
+    "options": [
+      "↓↓↓↓↓",
+      "↑↑↑↑",
+      "↑↑↑↑↑",
+      "↓↓↓"
+    ],
+    "answer": 2,
+    "explanation": "Le nombre de flèches augmente de 1 et leur orientation alterne."
+  },
+  {
+    "id": 85,
+    "category": "verbal",
+    "prompt": "Chaque élément relève au moins d’une des options « interne » ou « externe ». L’audit Vega ne relève pas de l’option « interne ». Que sait-on ?",
+    "options": [
+      "L’audit Vega relève des deux options.",
+      "L’audit Vega relève de l’option « externe ».",
+      "L’audit Vega ne relève d’aucune option.",
+      "Tous les autres éléments relèvent de l’option « interne »."
+    ],
+    "answer": 1,
+    "explanation": "Puisque L’audit Vega doit relever d’au moins une des deux options et que « interne » est exclue, l’option « externe » est nécessaire."
+  },
+  {
+    "id": 86,
+    "category": "numerical",
+    "prompt": "Un budget de 144 k€ est partagé entre A et B selon le ratio 5:7. Quelle part revient à A ?",
+    "options": [
+      "84 k€",
+      "60 k€",
+      "12 k€",
+      "72 k€"
+    ],
+    "answer": 1,
+    "explanation": "Le ratio compte 12 parts. A en reçoit 5 : 144 ÷ 12 × 5 = 60 k€."
+  },
+  {
+    "id": 87,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ◇, ◆, ◇◇, ◆◆, ◇◇◇, …",
+    "options": [
+      "◇◇◇◇",
+      "◆◆",
+      "◇◇",
+      "◆◆◆"
+    ],
+    "answer": 3,
+    "explanation": "Les formes alternent vide/pleine et chaque quantité est répétée deux fois."
+  },
+  {
+    "id": 88,
+    "category": "verbal",
+    "prompt": "Chaque élément relève au moins d’une des options « Marie » ou « Jonas ». dossier Iris ne relève pas de l’option « Marie ». Que sait-on ?",
+    "options": [
+      "dossier Iris relève des deux options.",
+      "dossier Iris ne relève d’aucune option.",
+      "dossier Iris relève de l’option « Jonas ».",
+      "Tous les autres éléments relèvent de l’option « Marie »."
+    ],
+    "answer": 2,
+    "explanation": "Puisque dossier Iris doit relever d’au moins une des deux options et que « Marie » est exclue, l’option « Jonas » est nécessaire."
+  },
+  {
+    "id": 89,
+    "category": "numerical",
+    "prompt": "Un budget de 180 k€ est partagé entre A et B selon le ratio 4:5. Quelle part revient à A ?",
+    "options": [
+      "100 k€",
+      "20 k€",
+      "80 k€",
+      "60 k€"
+    ],
+    "answer": 2,
+    "explanation": "Le ratio compte 9 parts. A en reçoit 4 : 180 ÷ 9 × 4 = 80 k€."
+  },
+  {
+    "id": 90,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ●○, ○●, ●○, ○●, ●○, …",
+    "options": [
+      "○●",
+      "●●",
+      "○○",
+      "●○"
+    ],
+    "answer": 0,
+    "explanation": "Les deux cercles échangent leur position à chaque étape."
+  },
+  {
+    "id": 91,
+    "category": "verbal",
+    "prompt": "Chaque élément relève au moins d’une des options « train » ou « avion ». La mission Nova ne relève pas de l’option « train ». Que sait-on ?",
+    "options": [
+      "La mission Nova relève des deux options.",
+      "La mission Nova ne relève d’aucune option.",
+      "Tous les autres éléments relèvent de l’option « train ».",
+      "La mission Nova relève de l’option « avion »."
+    ],
+    "answer": 3,
+    "explanation": "Puisque La mission Nova doit relever d’au moins une des deux options et que « train » est exclue, l’option « avion » est nécessaire."
+  },
+  {
+    "id": 92,
+    "category": "numerical",
+    "prompt": "Un budget de 210 k€ est partagé entre A et B selon le ratio 3:4. Quelle part revient à A ?",
+    "options": [
+      "120 k€",
+      "30 k€",
+      "60 k€",
+      "90 k€"
+    ],
+    "answer": 3,
+    "explanation": "Le ratio compte 7 parts. A en reçoit 3 : 210 ÷ 7 × 3 = 90 k€."
+  },
+  {
+    "id": 93,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ▲, ▶, ▼, ◀, ▲, …",
+    "options": [
+      "◀",
+      "▶",
+      "▼",
+      "△"
+    ],
+    "answer": 1,
+    "explanation": "Le triangle tourne de 90° dans le sens horaire."
+  },
+  {
+    "id": 94,
+    "category": "verbal",
+    "prompt": "Chaque élément relève au moins d’une des options « anglais » ou « français ». rapport Echo ne relève pas de l’option « anglais ». Que sait-on ?",
+    "options": [
+      "rapport Echo relève de l’option « français ».",
+      "rapport Echo relève des deux options.",
+      "rapport Echo ne relève d’aucune option.",
+      "Tous les autres éléments relèvent de l’option « anglais »."
+    ],
+    "answer": 0,
+    "explanation": "Puisque rapport Echo doit relever d’au moins une des deux options et que « anglais » est exclue, l’option « français » est nécessaire."
+  },
+  {
+    "id": 95,
+    "category": "numerical",
+    "prompt": "Un budget de 320 k€ est partagé entre A et B selon le ratio 3:5. Quelle part revient à A ?",
+    "options": [
+      "120 k€",
+      "200 k€",
+      "40 k€",
+      "160 k€"
+    ],
+    "answer": 0,
+    "explanation": "Le ratio compte 8 parts. A en reçoit 3 : 320 ÷ 8 × 3 = 120 k€."
+  },
+  {
+    "id": 96,
+    "category": "abstract",
+    "prompt": "Complétez la suite : □, □◇, □◇○, □◇○△, …",
+    "options": [
+      "◇○△●",
+      "□◇○●",
+      "□◇○△●",
+      "●△○◇□"
+    ],
+    "answer": 2,
+    "explanation": "Une nouvelle forme est ajoutée à droite à chaque étape sans modifier les précédentes."
+  },
+  {
+    "id": 97,
+    "category": "verbal",
+    "prompt": "Chaque élément relève au moins d’une des options « matin » ou « après-midi ». L’atelier Sigma ne relève pas de l’option « matin ». Que sait-on ?",
+    "options": [
+      "L’atelier Sigma relève des deux options.",
+      "L’atelier Sigma relève de l’option « après-midi ».",
+      "L’atelier Sigma ne relève d’aucune option.",
+      "Tous les autres éléments relèvent de l’option « matin »."
+    ],
+    "answer": 1,
+    "explanation": "Puisque L’atelier Sigma doit relever d’au moins une des deux options et que « matin » est exclue, l’option « après-midi » est nécessaire."
+  },
+  {
+    "id": 98,
+    "category": "numerical",
+    "prompt": "Un budget de 420 k€ est partagé entre A et B selon le ratio 2:5. Quelle part revient à A ?",
+    "options": [
+      "300 k€",
+      "120 k€",
+      "60 k€",
+      "180 k€"
+    ],
+    "answer": 1,
+    "explanation": "Le ratio compte 7 parts. A en reçoit 2 : 420 ÷ 7 × 2 = 120 k€."
+  },
+  {
+    "id": 99,
+    "category": "abstract",
+    "prompt": "Complétez la suite : ●●●●, ○○○, ●●, ○, …",
+    "options": [
+      "○○",
+      "●●",
+      "○",
+      "●"
+    ],
+    "answer": 3,
+    "explanation": "La quantité diminue de 1 et le remplissage alterne. Après un cercle vide vient un cercle plein."
+  },
+  {
+    "id": 100,
+    "category": "verbal",
+    "prompt": "Chaque élément relève au moins d’une des options « un an » ou « deux ans ». Le contrat Delta ne relève pas de l’option « un an ». Que sait-on ?",
+    "options": [
+      "Le contrat Delta relève des deux options.",
+      "Le contrat Delta ne relève d’aucune option.",
+      "Le contrat Delta relève de l’option « deux ans ».",
+      "Tous les autres éléments relèvent de l’option « un an »."
+    ],
+    "answer": 2,
+    "explanation": "Puisque Le contrat Delta doit relever d’au moins une des deux options et que « un an » est exclue, l’option « deux ans » est nécessaire."
+  }
+]

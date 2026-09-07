@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "category": "verbal",
+    "prompt": "All urgent items are verified. No verified item is anonymous. The Atlas file is urgent. What can be concluded?",
+    "options": [
+      "The Atlas file is not anonymous.",
+      "The Atlas file is anonymous.",
+      "All anonymous items are urgent.",
+      "The Atlas file is not verified."
+    ],
+    "answer": 0,
+    "explanation": "The Atlas file belongs to the urgent group and therefore to the verified group. No verified item can be anonymous."
+  },
+  {
+    "id": 2,
+    "category": "numerical",
+    "prompt": "A budget rises from €200k to €230k. What is the percentage increase?",
+    "options": [
+      "15 %",
+      "20 %",
+      "10 %",
+      "30 %"
+    ],
+    "answer": 0,
+    "explanation": "The increase is €30k. (230 − 200) ÷ 200 × 100 = 15%."
+  },
+  {
+    "id": 3,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ↑, →, ↓, ←, ↑, …",
+    "options": [
+      "→",
+      "↑",
+      "↓",
+      "←"
+    ],
+    "answer": 0,
+    "explanation": "The arrow rotates 90° clockwise at each step."
+  },
+  {
+    "id": 4,
+    "category": "verbal",
+    "prompt": "All validated items are archived. No archived item is public. The Vega report is validated. What can be concluded?",
+    "options": [
+      "The Vega report is public.",
+      "The Vega report is not public.",
+      "All public items are validated.",
+      "The Vega report is not archived."
+    ],
+    "answer": 1,
+    "explanation": "The Vega report belongs to the validated group and therefore to the archived group. No archived item can be public."
+  },
+  {
+    "id": 5,
+    "category": "numerical",
+    "prompt": "A budget rises from €320k to €400k. What is the percentage increase?",
+    "options": [
+      "30 %",
+      "25 %",
+      "20 %",
+      "80 %"
+    ],
+    "answer": 1,
+    "explanation": "The increase is €80k. (400 − 320) ÷ 320 × 100 = 25%."
+  },
+  {
+    "id": 6,
+    "category": "abstract",
+    "prompt": "Complete the sequence: →, ↓, ←, ↑, →, …",
+    "options": [
+      "↑",
+      "↓",
+      "→",
+      "←"
+    ],
+    "answer": 1,
+    "explanation": "The arrow rotates 90° clockwise at each step."
+  },
+  {
+    "id": 7,
+    "category": "verbal",
+    "prompt": "All priority items are funded. No funded item is suspended. The Iris project is a priority. What can be concluded?",
+    "options": [
+      "The Iris project is suspended.",
+      "All suspended items are a priority.",
+      "The Iris project is not suspended.",
+      "The Iris project is not funded."
+    ],
+    "answer": 2,
+    "explanation": "The Iris project belongs to the priority group and therefore to the funded group. No funded item can be suspended."
+  },
+  {
+    "id": 8,
+    "category": "numerical",
+    "prompt": "A budget rises from €480k to €540k. What is the percentage increase?",
+    "options": [
+      "17.5 %",
+      "7.5 %",
+      "12.5 %",
+      "60 %"
+    ],
+    "answer": 2,
+    "explanation": "The increase is €60k. (540 − 480) ÷ 480 × 100 = 12.5%."
+  },
+  {
+    "id": 9,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ↓, ←, ↑, →, ↓, …",
+    "options": [
+      "↑",
+      "→",
+      "←",
+      "↓"
+    ],
+    "answer": 2,
+    "explanation": "The arrow rotates 90° clockwise at each step."
+  },
+  {
+    "id": 10,
+    "category": "verbal",
+    "prompt": "All European items are translated. No translated item is confidential. The Nova contract is European. What can be concluded?",
+    "options": [
+      "The Nova contract is confidential.",
+      "All confidential items are European.",
+      "The Nova contract is not translated.",
+      "The Nova contract is not confidential."
+    ],
+    "answer": 3,
+    "explanation": "The Nova contract belongs to the European group and therefore to the translated group. No translated item can be confidential."
+  },
+  {
+    "id": 11,
+    "category": "numerical",
+    "prompt": "A budget rises from €750k to €900k. What is the percentage increase?",
+    "options": [
+      "25 %",
+      "15 %",
+      "150 %",
+      "20 %"
+    ],
+    "answer": 3,
+    "explanation": "The increase is €150k. (900 − 750) ÷ 750 × 100 = 20%."
+  },
+  {
+    "id": 12,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ←, ↑, →, ↓, ←, …",
+    "options": [
+      "→",
+      "↓",
+      "←",
+      "↑"
+    ],
+    "answer": 3,
+    "explanation": "The arrow rotates 90° clockwise at each step."
+  },
+  {
+    "id": 13,
+    "category": "verbal",
+    "prompt": "All external items are scheduled. No scheduled item is cancelled. The Sigma audit is external. What can be concluded?",
+    "options": [
+      "The Sigma audit is not cancelled.",
+      "The Sigma audit is cancelled.",
+      "All cancelled items are external.",
+      "The Sigma audit is not scheduled."
+    ],
+    "answer": 0,
+    "explanation": "The Sigma audit belongs to the external group and therefore to the scheduled group. No scheduled item can be cancelled."
+  },
+  {
+    "id": 14,
+    "category": "numerical",
+    "prompt": "A budget rises from €640k to €720k. What is the percentage increase?",
+    "options": [
+      "12.5 %",
+      "17.5 %",
+      "7.5 %",
+      "80 %"
+    ],
+    "answer": 0,
+    "explanation": "The increase is €80k. (720 − 640) ÷ 640 × 100 = 12.5%."
+  },
+  {
+    "id": 15,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ↑, ←, ↓, →, ↑, …",
+    "options": [
+      "←",
+      "↑",
+      "→",
+      "↓"
+    ],
+    "answer": 0,
+    "explanation": "The arrow rotates 90° anticlockwise at each step."
+  },
+  {
+    "id": 16,
+    "category": "verbal",
+    "prompt": "All multiannual items are evaluated. No evaluated item is provisional. The Helios programme is multiannual. What can be concluded?",
+    "options": [
+      "The Helios programme is provisional.",
+      "The Helios programme is not provisional.",
+      "All provisional items are multiannual.",
+      "The Helios programme is not evaluated."
+    ],
+    "answer": 1,
+    "explanation": "The Helios programme belongs to the multiannual group and therefore to the evaluated group. No evaluated item can be provisional."
+  },
+  {
+    "id": 17,
+    "category": "numerical",
+    "prompt": "A budget rises from €1,250k to €1,500k. What is the percentage increase?",
+    "options": [
+      "25 %",
+      "20 %",
+      "15 %",
+      "250 %"
+    ],
+    "answer": 1,
+    "explanation": "The increase is €250k. (1500 − 1250) ÷ 1250 × 100 = 20%."
+  },
+  {
+    "id": 18,
+    "category": "abstract",
+    "prompt": "Complete the sequence: →, ↑, ←, ↓, →, …",
+    "options": [
+      "→",
+      "↑",
+      "↓",
+      "←"
+    ],
+    "answer": 1,
+    "explanation": "The arrow rotates 90° anticlockwise at each step."
+  },
+  {
+    "id": 19,
+    "category": "verbal",
+    "prompt": "All open items are published. No published item is internal. The Delta call is open. What can be concluded?",
+    "options": [
+      "The Delta call is internal.",
+      "All internal items are open.",
+      "The Delta call is not internal.",
+      "The Delta call is not published."
+    ],
+    "answer": 2,
+    "explanation": "The Delta call belongs to the open group and therefore to the published group. No published item can be internal."
+  },
+  {
+    "id": 20,
+    "category": "numerical",
+    "prompt": "A budget rises from €360k to €450k. What is the percentage increase?",
+    "options": [
+      "30 %",
+      "20 %",
+      "25 %",
+      "90 %"
+    ],
+    "answer": 2,
+    "explanation": "The increase is €90k. (450 − 360) ÷ 360 × 100 = 25%."
+  },
+  {
+    "id": 21,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ↓, →, ↑, ←, ↓, …",
+    "options": [
+      "↑",
+      "↓",
+      "→",
+      "←"
+    ],
+    "answer": 2,
+    "explanation": "The arrow rotates 90° anticlockwise at each step."
+  },
+  {
+    "id": 22,
+    "category": "verbal",
+    "prompt": "All renewed items are approved. No approved item is expired. The Echo mandate is renewed. What can be concluded?",
+    "options": [
+      "The Echo mandate is expired.",
+      "All expired items are renewed.",
+      "The Echo mandate is not approved.",
+      "The Echo mandate is not expired."
+    ],
+    "answer": 3,
+    "explanation": "The Echo mandate belongs to the renewed group and therefore to the approved group. No approved item can be expired."
+  },
+  {
+    "id": 23,
+    "category": "numerical",
+    "prompt": "In a department of 80 people, 35% work remotely. How many work on site?",
+    "options": [
+      "28",
+      "52",
+      "60",
+      "44"
+    ],
+    "answer": 1,
+    "explanation": "65% work on site. 80 × 0.65 = 52."
+  },
+  {
+    "id": 24,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ←, ↓, →, ↑, ←, …",
+    "options": [
+      "↑",
+      "→",
+      "←",
+      "↓"
+    ],
+    "answer": 3,
+    "explanation": "The arrow rotates 90° anticlockwise at each step."
+  },
+  {
+    "id": 25,
+    "category": "verbal",
+    "prompt": "All legal items are reviewed. No reviewed item is informal. The Luna opinion is legal. What can be concluded?",
+    "options": [
+      "The Luna opinion is not informal.",
+      "The Luna opinion is informal.",
+      "All informal items are legal.",
+      "The Luna opinion is not reviewed."
+    ],
+    "answer": 0,
+    "explanation": "The Luna opinion belongs to the legal group and therefore to the reviewed group. No reviewed item can be informal."
+  },
+  {
+    "id": 26,
+    "category": "numerical",
+    "prompt": "In a department of 120 people, 40% work remotely. How many work on site?",
+    "options": [
+      "48",
+      "84",
+      "72",
+      "60"
+    ],
+    "answer": 2,
+    "explanation": "60% work on site. 120 × 0.6 = 72."
+  },
+  {
+    "id": 27,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ○, △, □, ○, △, …",
+    "options": [
+      "○",
+      "□",
+      "△",
+      "◇"
+    ],
+    "answer": 1,
+    "explanation": "The three-shape cycle “○ → △ → □” repeats."
+  },
+  {
+    "id": 28,
+    "category": "verbal",
+    "prompt": "An item is accepted only if it is signed. The Orion request is accepted. Which statement must be true?",
+    "options": [
+      "The Orion request is not signed.",
+      "The Orion request is signed.",
+      "All signed items are accepted.",
+      "No other item is accepted."
+    ],
+    "answer": 1,
+    "explanation": "“Only if” expresses a necessary condition: being accepted implies being signed."
+  },
+  {
+    "id": 29,
+    "category": "numerical",
+    "prompt": "In a department of 240 people, 25% work remotely. How many work on site?",
+    "options": [
+      "60",
+      "204",
+      "156",
+      "180"
+    ],
+    "answer": 3,
+    "explanation": "75% work on site. 240 × 0.75 = 180."
+  },
+  {
+    "id": 30,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ●, ▲, ◇, ●, ▲, …",
+    "options": [
+      "○",
+      "△",
+      "◇",
+      "□"
+    ],
+    "answer": 2,
+    "explanation": "The three-shape cycle “◇ → ● → ▲” repeats."
+  },
+  {
+    "id": 31,
+    "category": "verbal",
+    "prompt": "An item is processed only if it is authorised. The Atlas payment is processed. Which statement must be true?",
+    "options": [
+      "The Atlas payment is not authorised.",
+      "All authorised items are processed.",
+      "The Atlas payment is authorised.",
+      "No other item is processed."
+    ],
+    "answer": 2,
+    "explanation": "“Only if” expresses a necessary condition: being processed implies being authorised."
+  },
+  {
+    "id": 32,
+    "category": "numerical",
+    "prompt": "In a department of 360 people, 15% work remotely. How many work on site?",
+    "options": [
+      "306",
+      "54",
+      "342",
+      "270"
+    ],
+    "answer": 0,
+    "explanation": "85% work on site. 360 × 0.85 = 306."
+  },
+  {
+    "id": 33,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ◆, ■, ○, ◆, ■, …",
+    "options": [
+      "△",
+      "□",
+      "◇",
+      "○"
+    ],
+    "answer": 3,
+    "explanation": "The three-shape cycle “■ → ○ → ◆” repeats."
+  },
+  {
+    "id": 34,
+    "category": "verbal",
+    "prompt": "An item is launched only if it is budgeted. The Vega mission is launched. Which statement must be true?",
+    "options": [
+      "The Vega mission is not budgeted.",
+      "All budgeted items are launched.",
+      "No other item is launched.",
+      "The Vega mission is budgeted."
+    ],
+    "answer": 3,
+    "explanation": "“Only if” expresses a necessary condition: being launched implies being budgeted."
+  },
+  {
+    "id": 35,
+    "category": "numerical",
+    "prompt": "In a department of 500 people, 62% work remotely. How many work on site?",
+    "options": [
+      "310",
+      "190",
+      "240",
+      "140"
+    ],
+    "answer": 1,
+    "explanation": "38% work on site. 500 × 0.38 = 190."
+  },
+  {
+    "id": 36,
+    "category": "abstract",
+    "prompt": "Complete the sequence: △, ▽, ○, △, ▽, …",
+    "options": [
+      "○",
+      "△",
+      "□",
+      "◇"
+    ],
+    "answer": 0,
+    "explanation": "The three-shape cycle “△ → ▽ → ○” repeats."
+  },
+  {
+    "id": 37,
+    "category": "verbal",
+    "prompt": "An item is forwarded only if it is complete. The The Iris file is forwarded. Which statement must be true?",
+    "options": [
+      "The The Iris file is complete.",
+      "The The Iris file is not complete.",
+      "All complete items are forwarded.",
+      "No other item is forwarded."
+    ],
+    "answer": 0,
+    "explanation": "“Only if” expresses a necessary condition: being forwarded implies being complete."
+  },
+  {
+    "id": 38,
+    "category": "numerical",
+    "prompt": "In a department of 640 people, 30% work remotely. How many work on site?",
+    "options": [
+      "192",
+      "512",
+      "448",
+      "384"
+    ],
+    "answer": 2,
+    "explanation": "70% work on site. 640 × 0.7 = 448."
+  },
+  {
+    "id": 39,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ◇, ●, □, ◇, ●, …",
+    "options": [
+      "○",
+      "□",
+      "△",
+      "◇"
+    ],
+    "answer": 1,
+    "explanation": "The three-shape cycle “□ → ◇ → ●” repeats."
+  },
+  {
+    "id": 40,
+    "category": "verbal",
+    "prompt": "An item is confirmed only if it is interpreted. The Nova meeting is confirmed. Which statement must be true?",
+    "options": [
+      "The Nova meeting is not interpreted.",
+      "The Nova meeting is interpreted.",
+      "All interpreted items are confirmed.",
+      "No other item is confirmed."
+    ],
+    "answer": 1,
+    "explanation": "“Only if” expresses a necessary condition: being confirmed implies being interpreted."
+  },
+  {
+    "id": 41,
+    "category": "numerical",
+    "prompt": "In a department of 900 people, 44% work remotely. How many work on site?",
+    "options": [
+      "396",
+      "594",
+      "414",
+      "504"
+    ],
+    "answer": 3,
+    "explanation": "56% work on site. 900 × 0.56 = 504."
+  },
+  {
+    "id": 42,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ○, ▲, ■, ○, ▲, …",
+    "options": [
+      "○",
+      "△",
+      "■",
+      "□"
+    ],
+    "answer": 2,
+    "explanation": "The three-shape cycle “▲ → ■ → ○” repeats."
+  },
+  {
+    "id": 43,
+    "category": "verbal",
+    "prompt": "An item is published only if it is approved. The Echo report is published. Which statement must be true?",
+    "options": [
+      "The Echo report is not approved.",
+      "All approved items are published.",
+      "The Echo report is approved.",
+      "No other item is published."
+    ],
+    "answer": 2,
+    "explanation": "“Only if” expresses a necessary condition: being published implies being approved."
+  },
+  {
+    "id": 44,
+    "category": "numerical",
+    "prompt": "A team processes 84 files in 7 days at a constant rate. How many does it process in 12 days?",
+    "options": [
+      "156",
+      "132",
+      "144",
+      "96"
+    ],
+    "answer": 2,
+    "explanation": "The rate is 84 ÷ 7 = 12 files per day, then 12 × 12 = 144."
+  },
+  {
+    "id": 45,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ●, ◆, △, ●, ◆, …",
+    "options": [
+      "○",
+      "□",
+      "◇",
+      "△"
+    ],
+    "answer": 3,
+    "explanation": "The three-shape cycle “● → ◆ → △” repeats."
+  },
+  {
+    "id": 46,
+    "category": "verbal",
+    "prompt": "An item is renewed only if it is evaluated. The Luna contract is renewed. Which statement must be true?",
+    "options": [
+      "The Luna contract is not evaluated.",
+      "All evaluated items are renewed.",
+      "No other item is renewed.",
+      "The Luna contract is evaluated."
+    ],
+    "answer": 3,
+    "explanation": "“Only if” expresses a necessary condition: being renewed implies being evaluated."
+  },
+  {
+    "id": 47,
+    "category": "numerical",
+    "prompt": "A team processes 96 files in 8 days at a constant rate. How many does it process in 15 days?",
+    "options": [
+      "192",
+      "168",
+      "111",
+      "180"
+    ],
+    "answer": 3,
+    "explanation": "The rate is 96 ÷ 8 = 12 files per day, then 12 × 15 = 180."
+  },
+  {
+    "id": 48,
+    "category": "abstract",
+    "prompt": "Complete the sequence: □, ◇, ▽, □, ◇, …",
+    "options": [
+      "▽",
+      "○",
+      "△",
+      "□"
+    ],
+    "answer": 0,
+    "explanation": "The three-shape cycle “▽ → □ → ◇” repeats."
+  },
+  {
+    "id": 49,
+    "category": "verbal",
+    "prompt": "An item is funded only if it is eligible. The Sigma project is funded. Which statement must be true?",
+    "options": [
+      "The Sigma project is eligible.",
+      "The Sigma project is not eligible.",
+      "All eligible items are funded.",
+      "No other item is funded."
+    ],
+    "answer": 0,
+    "explanation": "“Only if” expresses a necessary condition: being funded implies being eligible."
+  },
+  {
+    "id": 50,
+    "category": "numerical",
+    "prompt": "A team processes 150 files in 10 days at a constant rate. How many does it process in 6 days?",
+    "options": [
+      "90",
+      "105",
+      "75",
+      "156"
+    ],
+    "answer": 0,
+    "explanation": "The rate is 150 ÷ 10 = 15 files per day, then 15 × 6 = 90."
+  },
+  {
+    "id": 51,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ●, ○○, ●●●, ○○○○, …",
+    "options": [
+      "○○○○○",
+      "●●●●",
+      "●●●●●",
+      "○○○○○○"
+    ],
+    "answer": 2,
+    "explanation": "The number of shapes increases by 1 and the fill alternates solid/empty. Five solid shapes are needed."
+  },
+  {
+    "id": 52,
+    "category": "verbal",
+    "prompt": "An item is notified only if it is adopted. The Delta decision is notified. Which statement must be true?",
+    "options": [
+      "The Delta decision is not adopted.",
+      "The Delta decision is adopted.",
+      "All adopted items are notified.",
+      "No other item is notified."
+    ],
+    "answer": 1,
+    "explanation": "“Only if” expresses a necessary condition: being notified implies being adopted."
+  },
+  {
+    "id": 53,
+    "category": "numerical",
+    "prompt": "A team processes 132 files in 11 days at a constant rate. How many does it process in 8 days?",
+    "options": [
+      "108",
+      "96",
+      "84",
+      "140"
+    ],
+    "answer": 1,
+    "explanation": "The rate is 132 ÷ 11 = 12 files per day, then 12 × 8 = 96."
+  },
+  {
+    "id": 54,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ■, □□, ■■■, □□□□, …",
+    "options": [
+      "□□□□□",
+      "■■■■",
+      "□□□□□□",
+      "■■■■■"
+    ],
+    "answer": 3,
+    "explanation": "The number of shapes increases by 1 and the fill alternates solid/empty. Five solid shapes are needed."
+  },
+  {
+    "id": 55,
+    "category": "verbal",
+    "prompt": "Some analysts are auditors. All auditors are accredited. Which conclusion is certain?",
+    "options": [
+      "All analysts are accredited.",
+      "No analysts are accredited.",
+      "Some analysts are accredited.",
+      "All accredited people are auditors."
+    ],
+    "answer": 2,
+    "explanation": "The analysts who are auditors necessarily belong to the accredited group. Therefore, some analysts are accredited."
+  },
+  {
+    "id": 56,
+    "category": "numerical",
+    "prompt": "A team processes 225 files in 15 days at a constant rate. How many does it process in 9 days?",
+    "options": [
+      "150",
+      "120",
+      "135",
+      "234"
+    ],
+    "answer": 2,
+    "explanation": "The rate is 225 ÷ 15 = 15 files per day, then 15 × 9 = 135."
+  },
+  {
+    "id": 57,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ◆, ◇◇, ◆◆◆, ◇◇◇◇, …",
+    "options": [
+      "◆◆◆◆◆",
+      "◇◇◇◇◇",
+      "◆◆◆◆",
+      "◇◇◇◇◇◇"
+    ],
+    "answer": 0,
+    "explanation": "The number of shapes increases by 1 and the fill alternates solid/empty. Five solid shapes are needed."
+  },
+  {
+    "id": 58,
+    "category": "verbal",
+    "prompt": "Some lawyers are mediators. All mediators are trained. Which conclusion is certain?",
+    "options": [
+      "All lawyers are trained.",
+      "No lawyers are trained.",
+      "All trained people are mediators.",
+      "Some lawyers are trained."
+    ],
+    "answer": 3,
+    "explanation": "The lawyers who are mediators necessarily belong to the trained group. Therefore, some lawyers are trained."
+  },
+  {
+    "id": 59,
+    "category": "numerical",
+    "prompt": "A team processes 168 files in 14 days at a constant rate. How many does it process in 20 days?",
+    "options": [
+      "252",
+      "228",
+      "188",
+      "240"
+    ],
+    "answer": 3,
+    "explanation": "The rate is 168 ÷ 14 = 12 files per day, then 12 × 20 = 240."
+  },
+  {
+    "id": 60,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ▲, △△, ▲▲▲, △△△△, …",
+    "options": [
+      "△△△△△",
+      "▲▲▲▲▲",
+      "▲▲▲▲",
+      "△△△△△△"
+    ],
+    "answer": 1,
+    "explanation": "The number of shapes increases by 1 and the fill alternates solid/empty. Five solid shapes are needed."
+  },
+  {
+    "id": 61,
+    "category": "verbal",
+    "prompt": "Some translators are reviewers. All reviewers are experienced. Which conclusion is certain?",
+    "options": [
+      "Some translators are experienced.",
+      "All translators are experienced.",
+      "No translators are experienced.",
+      "All experienced people are reviewers."
+    ],
+    "answer": 0,
+    "explanation": "The translators who are reviewers necessarily belong to the experienced group. Therefore, some translators are experienced."
+  },
+  {
+    "id": 62,
+    "category": "numerical",
+    "prompt": "A team processes 288 files in 12 days at a constant rate. How many does it process in 7 days?",
+    "options": [
+      "168",
+      "192",
+      "144",
+      "295"
+    ],
+    "answer": 0,
+    "explanation": "The rate is 288 ÷ 12 = 24 files per day, then 24 × 7 = 168."
+  },
+  {
+    "id": 63,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ▼, ▽▽, ▼▼▼, ▽▽▽▽, …",
+    "options": [
+      "▽▽▽▽▽",
+      "▼▼▼▼",
+      "▼▼▼▼▼",
+      "▽▽▽▽▽▽"
+    ],
+    "answer": 2,
+    "explanation": "The number of shapes increases by 1 and the fill alternates solid/empty. Five solid shapes are needed."
+  },
+  {
+    "id": 64,
+    "category": "verbal",
+    "prompt": "Some economists are researchers. All researchers are published. Which conclusion is certain?",
+    "options": [
+      "All economists are published.",
+      "Some economists are published.",
+      "No economists are published.",
+      "All published people are researchers."
+    ],
+    "answer": 1,
+    "explanation": "The economists who are researchers necessarily belong to the published group. Therefore, some economists are published."
+  },
+  {
+    "id": 65,
+    "category": "numerical",
+    "prompt": "Four units processed 12, 16, 20, 24 requests respectively. What is the average?",
+    "options": [
+      "23",
+      "13",
+      "24",
+      "18"
+    ],
+    "answer": 3,
+    "explanation": "The total is 72. Dividing by 4 gives 18."
+  },
+  {
+    "id": 66,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ⬟, ⬡⬡, ⬟⬟⬟, ⬡⬡⬡⬡, …",
+    "options": [
+      "⬡⬡⬡⬡⬡",
+      "⬟⬟⬟⬟",
+      "⬡⬡⬡⬡⬡⬡",
+      "⬟⬟⬟⬟⬟"
+    ],
+    "answer": 3,
+    "explanation": "The number of shapes increases by 1 and the fill alternates solid/empty. Five solid shapes are needed."
+  },
+  {
+    "id": 67,
+    "category": "verbal",
+    "prompt": "Some managers are accountants. All accountants are certified. Which conclusion is certain?",
+    "options": [
+      "All managers are certified.",
+      "No managers are certified.",
+      "Some managers are certified.",
+      "All certified people are accountants."
+    ],
+    "answer": 2,
+    "explanation": "The managers who are accountants necessarily belong to the certified group. Therefore, some managers are certified."
+  },
+  {
+    "id": 68,
+    "category": "numerical",
+    "prompt": "Four units processed 45, 55, 65, 75 requests respectively. What is the average?",
+    "options": [
+      "60",
+      "65",
+      "55",
+      "80"
+    ],
+    "answer": 0,
+    "explanation": "The total is 240. Dividing by 4 gives 60."
+  },
+  {
+    "id": 69,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ⬢, ⬡⬡, ⬢⬢⬢, ⬡⬡⬡⬡, …",
+    "options": [
+      "⬢⬢⬢⬢⬢",
+      "⬡⬡⬡⬡⬡",
+      "⬢⬢⬢⬢",
+      "⬡⬡⬡⬡⬡⬡"
+    ],
+    "answer": 0,
+    "explanation": "The number of shapes increases by 1 and the fill alternates solid/empty. Five solid shapes are needed."
+  },
+  {
+    "id": 70,
+    "category": "verbal",
+    "prompt": "Some experts are consultants. All consultants are independent. Which conclusion is certain?",
+    "options": [
+      "All experts are independent.",
+      "No experts are independent.",
+      "All independent people are consultants.",
+      "Some experts are independent."
+    ],
+    "answer": 3,
+    "explanation": "The experts who are consultants necessarily belong to the independent group. Therefore, some experts are independent."
+  },
+  {
+    "id": 71,
+    "category": "numerical",
+    "prompt": "Four units processed 18, 22, 25, 35 requests respectively. What is the average?",
+    "options": [
+      "30",
+      "25",
+      "20",
+      "33.33"
+    ],
+    "answer": 1,
+    "explanation": "The total is 100. Dividing by 4 gives 25."
+  },
+  {
+    "id": 72,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ◉, ◎◎, ◉◉◉, ◎◎◎◎, …",
+    "options": [
+      "◎◎◎◎◎",
+      "◉◉◉◉◉",
+      "◉◉◉◉",
+      "◎◎◎◎◎◎"
+    ],
+    "answer": 1,
+    "explanation": "The number of shapes increases by 1 and the fill alternates solid/empty. Five solid shapes are needed."
+  },
+  {
+    "id": 73,
+    "category": "verbal",
+    "prompt": "Some inspectors are engineers. All engineers are graduates. Which conclusion is certain?",
+    "options": [
+      "Some inspectors are graduates.",
+      "All inspectors are graduates.",
+      "No inspectors are graduates.",
+      "All graduates people are engineers."
+    ],
+    "answer": 0,
+    "explanation": "The inspectors who are engineers necessarily belong to the graduates group. Therefore, some inspectors are graduates."
+  },
+  {
+    "id": 74,
+    "category": "numerical",
+    "prompt": "Four units processed 120, 135, 150, 195 requests respectively. What is the average?",
+    "options": [
+      "155",
+      "145",
+      "150",
+      "200"
+    ],
+    "answer": 2,
+    "explanation": "The total is 600. Dividing by 4 gives 150."
+  },
+  {
+    "id": 75,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ▲, ○, ▼, ●, ▲, …",
+    "options": [
+      "●",
+      "▼",
+      "△",
+      "○"
+    ],
+    "answer": 3,
+    "explanation": "The shape alternates triangle/circle while orientation or fill follows a two-step cycle."
+  },
+  {
+    "id": 76,
+    "category": "verbal",
+    "prompt": "Some administrators are negotiators. All negotiators are multilingual. Which conclusion is certain?",
+    "options": [
+      "All administrators are multilingual.",
+      "Some administrators are multilingual.",
+      "No administrators are multilingual.",
+      "All multilingual people are negotiators."
+    ],
+    "answer": 1,
+    "explanation": "The administrators who are negotiators necessarily belong to the multilingual group. Therefore, some administrators are multilingual."
+  },
+  {
+    "id": 77,
+    "category": "numerical",
+    "prompt": "Four units processed 7, 9, 14, 18 requests respectively. What is the average?",
+    "options": [
+      "17",
+      "7",
+      "16",
+      "12"
+    ],
+    "answer": 3,
+    "explanation": "The total is 48. Dividing by 4 gives 12."
+  },
+  {
+    "id": 78,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ■, △, □, ▲, ■, …",
+    "options": [
+      "△",
+      "▲",
+      "□",
+      "●"
+    ],
+    "answer": 0,
+    "explanation": "The four-symbol pattern repeats unchanged."
+  },
+  {
+    "id": 79,
+    "category": "verbal",
+    "prompt": "Every item uses at least one of the options “Brussels” or “Luxembourg”. The Orion meeting does not use “Brussels”. What do we know?",
+    "options": [
+      "The Orion meeting uses both options.",
+      "The Orion meeting uses neither option.",
+      "All other items use the “Brussels” option.",
+      "The Orion meeting uses the “Luxembourg” option."
+    ],
+    "answer": 3,
+    "explanation": "Since the Orion meeting must use at least one option and “Brussels” is ruled out, “Luxembourg” is necessary."
+  },
+  {
+    "id": 80,
+    "category": "numerical",
+    "prompt": "Four units processed 240, 260, 280, 300 requests respectively. What is the average?",
+    "options": [
+      "270",
+      "275",
+      "265",
+      "360"
+    ],
+    "answer": 0,
+    "explanation": "The total is 1080. Dividing by 4 gives 270."
+  },
+  {
+    "id": 81,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ○, ○○, △, △△, □, …",
+    "options": [
+      "□",
+      "□□",
+      "△△△",
+      "○○○"
+    ],
+    "answer": 1,
+    "explanation": "Each shape appears once, then twice, before moving to the next shape."
+  },
+  {
+    "id": 82,
+    "category": "verbal",
+    "prompt": "Every item uses at least one of the options “Monday” or “Tuesday”. The Atlas training does not use “Monday”. What do we know?",
+    "options": [
+      "The Atlas training uses the “Tuesday” option.",
+      "The Atlas training uses both options.",
+      "The Atlas training uses neither option.",
+      "All other items use the “Monday” option."
+    ],
+    "answer": 0,
+    "explanation": "Since the Atlas training must use at least one option and “Monday” is ruled out, “Tuesday” is necessary."
+  },
+  {
+    "id": 83,
+    "category": "numerical",
+    "prompt": "A €100k budget is split between A and B in the ratio 2:3. What is A's share?",
+    "options": [
+      "€40k",
+      "€60k",
+      "€20k",
+      "€50k"
+    ],
+    "answer": 0,
+    "explanation": "The ratio has 5 parts. A receives 2: 100 ÷ 5 × 2 = €40k."
+  },
+  {
+    "id": 84,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ↑, ↓↓, ↑↑↑, ↓↓↓↓, …",
+    "options": [
+      "↓↓↓↓↓",
+      "↑↑↑↑",
+      "↑↑↑↑↑",
+      "↓↓↓"
+    ],
+    "answer": 2,
+    "explanation": "The arrow count increases by 1 and direction alternates."
+  },
+  {
+    "id": 85,
+    "category": "verbal",
+    "prompt": "Every item uses at least one of the options “internal” or “external”. The Vega audit does not use “internal”. What do we know?",
+    "options": [
+      "The Vega audit uses both options.",
+      "The Vega audit uses the “external” option.",
+      "The Vega audit uses neither option.",
+      "All other items use the “internal” option."
+    ],
+    "answer": 1,
+    "explanation": "Since the Vega audit must use at least one option and “internal” is ruled out, “external” is necessary."
+  },
+  {
+    "id": 86,
+    "category": "numerical",
+    "prompt": "A €144k budget is split between A and B in the ratio 5:7. What is A's share?",
+    "options": [
+      "€84k",
+      "€60k",
+      "€12k",
+      "€72k"
+    ],
+    "answer": 1,
+    "explanation": "The ratio has 12 parts. A receives 5: 144 ÷ 12 × 5 = €60k."
+  },
+  {
+    "id": 87,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ◇, ◆, ◇◇, ◆◆, ◇◇◇, …",
+    "options": [
+      "◇◇◇◇",
+      "◆◆",
+      "◇◇",
+      "◆◆◆"
+    ],
+    "answer": 3,
+    "explanation": "Hollow and solid shapes alternate, with each quantity repeated twice."
+  },
+  {
+    "id": 88,
+    "category": "verbal",
+    "prompt": "Every item uses at least one of the options “Marie” or “Jonas”. The Iris file does not use “Marie”. What do we know?",
+    "options": [
+      "The Iris file uses both options.",
+      "The Iris file uses neither option.",
+      "The Iris file uses the “Jonas” option.",
+      "All other items use the “Marie” option."
+    ],
+    "answer": 2,
+    "explanation": "Since the Iris file must use at least one option and “Marie” is ruled out, “Jonas” is necessary."
+  },
+  {
+    "id": 89,
+    "category": "numerical",
+    "prompt": "A €180k budget is split between A and B in the ratio 4:5. What is A's share?",
+    "options": [
+      "€100k",
+      "€20k",
+      "€80k",
+      "€60k"
+    ],
+    "answer": 2,
+    "explanation": "The ratio has 9 parts. A receives 4: 180 ÷ 9 × 4 = €80k."
+  },
+  {
+    "id": 90,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ●○, ○●, ●○, ○●, ●○, …",
+    "options": [
+      "○●",
+      "●●",
+      "○○",
+      "●○"
+    ],
+    "answer": 0,
+    "explanation": "The two circles swap positions at every step."
+  },
+  {
+    "id": 91,
+    "category": "verbal",
+    "prompt": "Every item uses at least one of the options “train” or “plane”. The Nova mission does not use “train”. What do we know?",
+    "options": [
+      "The Nova mission uses both options.",
+      "The Nova mission uses neither option.",
+      "All other items use the “train” option.",
+      "The Nova mission uses the “plane” option."
+    ],
+    "answer": 3,
+    "explanation": "Since the Nova mission must use at least one option and “train” is ruled out, “plane” is necessary."
+  },
+  {
+    "id": 92,
+    "category": "numerical",
+    "prompt": "A €210k budget is split between A and B in the ratio 3:4. What is A's share?",
+    "options": [
+      "€120k",
+      "€30k",
+      "€60k",
+      "€90k"
+    ],
+    "answer": 3,
+    "explanation": "The ratio has 7 parts. A receives 3: 210 ÷ 7 × 3 = €90k."
+  },
+  {
+    "id": 93,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ▲, ▶, ▼, ◀, ▲, …",
+    "options": [
+      "◀",
+      "▶",
+      "▼",
+      "△"
+    ],
+    "answer": 1,
+    "explanation": "The triangle rotates 90° clockwise."
+  },
+  {
+    "id": 94,
+    "category": "verbal",
+    "prompt": "Every item uses at least one of the options “English” or “French”. Echo report does not use “English”. What do we know?",
+    "options": [
+      "Echo report uses the “French” option.",
+      "Echo report uses both options.",
+      "Echo report uses neither option.",
+      "All other items use the “English” option."
+    ],
+    "answer": 0,
+    "explanation": "Since Echo report must use at least one option and “English” is ruled out, “French” is necessary."
+  },
+  {
+    "id": 95,
+    "category": "numerical",
+    "prompt": "A €320k budget is split between A and B in the ratio 3:5. What is A's share?",
+    "options": [
+      "€120k",
+      "€200k",
+      "€40k",
+      "€160k"
+    ],
+    "answer": 0,
+    "explanation": "The ratio has 8 parts. A receives 3: 320 ÷ 8 × 3 = €120k."
+  },
+  {
+    "id": 96,
+    "category": "abstract",
+    "prompt": "Complete the sequence: □, □◇, □◇○, □◇○△, …",
+    "options": [
+      "◇○△●",
+      "□◇○●",
+      "□◇○△●",
+      "●△○◇□"
+    ],
+    "answer": 2,
+    "explanation": "One new shape is added on the right at each step without changing earlier shapes."
+  },
+  {
+    "id": 97,
+    "category": "verbal",
+    "prompt": "Every item uses at least one of the options “morning” or “afternoon”. The Sigma workshop does not use “morning”. What do we know?",
+    "options": [
+      "The Sigma workshop uses both options.",
+      "The Sigma workshop uses the “afternoon” option.",
+      "The Sigma workshop uses neither option.",
+      "All other items use the “morning” option."
+    ],
+    "answer": 1,
+    "explanation": "Since the Sigma workshop must use at least one option and “morning” is ruled out, “afternoon” is necessary."
+  },
+  {
+    "id": 98,
+    "category": "numerical",
+    "prompt": "A €420k budget is split between A and B in the ratio 2:5. What is A's share?",
+    "options": [
+      "€300k",
+      "€120k",
+      "€60k",
+      "€180k"
+    ],
+    "answer": 1,
+    "explanation": "The ratio has 7 parts. A receives 2: 420 ÷ 7 × 2 = €120k."
+  },
+  {
+    "id": 99,
+    "category": "abstract",
+    "prompt": "Complete the sequence: ●●●●, ○○○, ●●, ○, …",
+    "options": [
+      "○○",
+      "●●",
+      "○",
+      "●"
+    ],
+    "answer": 3,
+    "explanation": "The quantity decreases by 1 and the fill alternates. A solid circle follows the hollow circle."
+  },
+  {
+    "id": 100,
+    "category": "verbal",
+    "prompt": "Every item uses at least one of the options “one year” or “two years”. The Delta contract does not use “one year”. What do we know?",
+    "options": [
+      "The Delta contract uses both options.",
+      "The Delta contract uses neither option.",
+      "The Delta contract uses the “two years” option.",
+      "All other items use the “one year” option."
+    ],
+    "answer": 2,
+    "explanation": "Since the Delta contract must use at least one option and “one year” is ruled out, “two years” is necessary."
+  }
+]
